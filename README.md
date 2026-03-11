@@ -6,17 +6,17 @@ Denne del af projeketet indeholder Frontend til lagerstyeringssytemet.
 Frontend er udviklet med følgende teknologier:
 
 - React
--TypeScript
--Vite
--Bootstrap
+- TypeScript
+- Vite
+- Bootstrap
 
 Applikationen fungere som en webbaseret interface til Adminstration af lageret.
 
 ### Krav
 Før projektet kan startes skal følgende være installeret på computeren:
 
--Node.js (Latest version)
--npm 
+- Node.js (Latest version)
+- npm 
 
 Tjek instilation i terminalen ved burg af disse commandor:
 
@@ -66,16 +66,16 @@ http://localhost:5173
 
 Frontend anvender følgende teknologier:
 
-React
+React:
 Bruges til at bygge interfacen med komponenter.
 
-TypeScript
+TypeScript:
 Tilføjer statiske typer til JavaScript. 
 
-Vite
+Vite:
 Bruges som udviklingsværktøj til at starte projektet og håndtere build-prcessen
 
-Bootstrap
+Bootstrap:
 Bruges til styling af interface og responsiv layout.
 
 ----------------------------------------------------------------
