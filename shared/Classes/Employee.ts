@@ -5,4 +5,13 @@ class Employee {
     level: string; // Foreign Key
     password_hash: string;
     location_warehouse_id: number; // Foreign Key
+
+    constructor(employee_id, username, name, level, password_hash, location_warehouse_id) {
+        this.employee_id = employee_id;
+        this.username = username;
+        this.name = name;
+        this.level = level;
+        this.password_hash = password_hash;
+        this.location_warehouse_id = location_warehouse_id;
+    }
 }
