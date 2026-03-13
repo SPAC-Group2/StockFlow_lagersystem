@@ -1,15 +1,11 @@
 import express from "express";
-import { routes } from "./features/routes";
+import { routes } from "./routes/routes.js";
 
-
-const app = express()
-const port = 3000
+const app = express();
 
 app.use(express.json());
-/*app.get('/', (_req: any, res: { send: (arg0: string) => void }) => {
-  res.send('Hello World! and goodbye')
-})*/
-app.use("/", routes);
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+app.use("/api", routes);
+
+app.listen(3000, () => {
+    console.log("Server running on port 3000");
+});
