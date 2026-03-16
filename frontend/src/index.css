@@ -60,10 +60,14 @@ a {
   font-size: 18px;
   font-style: italic;
   font-weight: 700;
+  text-decoration: none;
+  padding-bottom: 4px;
 }
 
 .sidebar-menu a.active {
   color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  width: fit-content;
 }
 
 .content {
@@ -82,7 +86,71 @@ a {
 }
 
 .logo {
+  width: 60px;
+  height: 60px;
+  background: tr;
+}
+
+/* Topbar */
+.topbar {
+  height: 80px;
+  background-color: #16a34a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Venstre side af topbar */
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Flag */
+.flag-icon {
+  width: 28px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+/* Søgefelt */
+.search-input {
+  margin-left: 12px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid #1f2937;
+  font-size: 18px;
+  padding: 6px;
+  color: #111827;
+}
+
+/* Højre side af topbar */
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Brugertekst */
+.user-text {
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+/* Bruger ikon */
+.user-avatar {
   width: 42px;
   height: 42px;
-  background: tr;
+  border-radius: 50%;
+  background-color: white;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
