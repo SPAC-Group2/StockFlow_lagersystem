@@ -14,11 +14,18 @@ Dette er en produtype for et lagersystem til et fiktivt firma kaldet StockFlow. 
 Dette projekt er et fullstack projekt, der indeholder en frontend, en REST service og en database. 
 Lagersystemet er ment som et system til medarbejdere af firmaet, med et fokus på at de skal kunne se ordre og lagerbeholdning i virksomheden. Der er givet krav som enkelte funktioner, og et brugervenligt og responsive design, men opgaven er stillet løst, så vi har haft mulighed for at vælge teknologier og meget af system designet. 
 
-## Docker 
+## Installation
 Der er lavet en docker compose fil, der gør det muligt at starte frontend, REST og database.
 Når man starter den, bliver der både sørget for at installere de forskellige dependencies, samt lavet en database, der også bliver fyldt med diverse test data.
 
-Dette kræver en .env fil, der indeholder:
+For at køre projektet:
+
+1. Clone repository : 
+```
+git clone https://github.com/SPAC-Group2/SoftFlow_lagersystem.git
+```
+
+Projektet kræver en .env fil, der indeholder:
 ```
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD= ****** 
@@ -52,55 +59,6 @@ Frontend er udviklet med følgende teknologier:
 
 Applikationen fungere som en webbaseret interface til Adminstration af lageret.
 
-### Krav
-Før projektet kan startes skal følgende være installeret på computeren:
-
-- Node.js (Latest version)
-- npm 
-
-Tjek instilation i terminalen ved burg af disse commandor:
-
-node -v
-npm -v
-
-----------------------------------------------------------------
-
-### Installation 
-
-1. Clone repository : 
-
-git clone https://github.com/SPAC-Group2/SoftFlow_lagersystem.git
-
-2. Gå ind i frontend mappen:
-
-cd stockflow_lagersystem/frontend
-
-3. Installer dependencies:
-
-npm install
-
-Dette installer alle nødvendige pakker :
-
-- React
-- TypeScript
-- Vite
-- Bootestrap
-
-----------------------------------------------------------------
-
-### Start Udviklingsserver
-
-Start frontend applikationen:
-
-npm run dev 
-
-Når serveren starter; vil terminalen vise en lokal adresse:
-
-http://localhost:5173
-
-Åbn adressen i browser for at se applikationen.
-
-----------------------------------------------------------------
 ## REST service
 
 ## Database
@@ -116,8 +74,10 @@ Dette projekt gav ikke de store krav i forhold til hvilke data der skal ligge i 
 ## Frameworks og biblioteker
 
 ### Fælles
+Node: For at styre og hente forskellige bibloteker og frameworks.
 TypeScript:
 Tilføjer statiske typer til JavaScript. 
+
 ### Frontend
 
 React:
