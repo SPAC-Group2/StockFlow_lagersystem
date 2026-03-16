@@ -1,8 +1,8 @@
 import csv
 
-input_csv = r"C:\Users\LineWienke\Documents\StockFlow_lagersystem\database\Data/ProductData.csv"
-output_sql = r"C:\Users\LineWienke\Documents\StockFlow_lagersystem\database\Data/insertProductData.sql"
-output_sql2 = r"C:\Users\LineWienke\Documents\StockFlow_lagersystem\database\Data/insertCategories.sql"
+input_csv = r"ProductData.csv"
+output_sql = r"insertProductData.sql"
+output_sql2 = r"/insertCategories.sql"
 categoryList = []
 
 with open(input_csv, newline='', encoding="utf-8") as csvfile, open(output_sql, "w", encoding="utf-8") as sqlfile:
