@@ -15,3 +15,5 @@ function Topbar() {
         </header>
     );
 }  
+
+export default Topbar;
