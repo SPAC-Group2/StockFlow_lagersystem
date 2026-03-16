@@ -7,19 +7,21 @@
     "dev": "nodemon",
     "build": "tsc",
     "start": "node dist/index.js"
+
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "watch": "^0.13.0"
   },
   "devDependencies": {
+
     "@types/express": "^5.0.6",
     "@types/node": "^25.4.0",
     "nodemon": "^3.0.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+=======
+    "@types/express": "^5.0.6"
+>>>>>>> REST_Porblemer
   }
 }
