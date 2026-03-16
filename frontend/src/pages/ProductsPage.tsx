@@ -8,17 +8,20 @@ function ProductsPage() {
         <Sidebar />
         <main className="content">
             <Topbar />
-            <h1>Products</h1>
+
+            <section className="products-page">
+            <h1 className="page-title">Products</h1>
 
              {/* Filter knapper */}
-            <div>
-                <button>Sort</button>
-                <button>Category</button>
-                <button>Price</button>
+            <div className="filter-bar">
+                <button className="filter-button">Sort</button>
+                <button className="filter-button">Category</button>
+                <button className="filter-button">Price</button>
             </div>
+            
              {/* Produkt tabel */}
-        <section>
-          <div>
+             <section className="products-table">
+          <div className="table-header">
             <span>Product id</span>
             <span>Category</span>
             <span>Price</span>
@@ -27,43 +30,44 @@ function ProductsPage() {
             <span>Action</span>
           </div>
 
-          <div>
+          <div className="table-row">
             <span>P-1001</span>
             <span>Electronics</span>
             <span>399,-</span>
             <span>15</span>
             <span>In Stock</span>
-            <button>→</button>
+            <button className="action-button">→</button>
           </div>
 
-          <div>
+          <div className="table-row">
             <span>P-1002</span>
             <span>Accessories</span>
             <span>249,-</span>
             <span>8</span>
             <span>Low Stock</span>
-            <button>→</button>
+            <button className="action-button">→</button>
           </div>
 
-          <div>
+          <div className="table-row">
             <span>P-1003</span>
             <span>Furniture</span>
             <span>899,-</span>
             <span>0</span>
             <span>Out of Stock</span>
-            <button>→</button>
+            <button className="action-button">→</button>
           </div>
 
-          <div>
+          <div className="table-row">
             <span>P-1004</span>
             <span>Warehouse Tools</span>
             <span>599,-</span>
             <span>12</span>
             <span>In Stock</span>
-            <button>→</button>
-          </div>
+            <button className="action-button">→</button>
+           </div>
+          </section>
         </section>
-        </main>
+      </main>
     </div>
   );
 }
