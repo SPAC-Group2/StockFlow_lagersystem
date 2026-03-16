@@ -1,0 +1,15 @@
+INSERT INTO Categories (category_id, cateory) VALUES ('1', 'Electronics');
+INSERT INTO Categories (category_id, cateory) VALUES ('2', 'Smart Home');
+INSERT INTO Categories (category_id, cateory) VALUES ('3', 'Computer Accessories');
+INSERT INTO Categories (category_id, cateory) VALUES ('4', 'Office');
+INSERT INTO Categories (category_id, cateory) VALUES ('5', 'Lifestyle');
+INSERT INTO Categories (category_id, cateory) VALUES ('6', 'Accessories');
+INSERT INTO Categories (category_id, cateory) VALUES ('7', 'Smart Devices');
+INSERT INTO Categories (category_id, cateory) VALUES ('8', 'Gaming');
+INSERT INTO Categories (category_id, cateory) VALUES ('9', 'Travel');
+INSERT INTO Categories (category_id, cateory) VALUES ('10', 'Home');
+INSERT INTO Categories (category_id, cateory) VALUES ('11', 'Fitness');
+INSERT INTO Categories (category_id, cateory) VALUES ('12', 'Tools');
+INSERT INTO Categories (category_id, cateory) VALUES ('13', 'Outdoor');
+INSERT INTO Categories (category_id, cateory) VALUES ('14', 'Cycling');
+INSERT INTO Categories (category_id, cateory) VALUES ('15', 'Automotive');

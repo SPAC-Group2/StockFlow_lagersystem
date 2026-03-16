@@ -1,7 +1,7 @@
 import csv
 
-input_csv = r"C:\Users\LineWienke\Documents\StockFlow_lagersystem\Database\Data\customer_DATA.csv"
-output_sql = r"C:\Users\LineWienke\Documents\StockFlow_lagersystem\Database\Data\insertCustomers.sql"
+input_csv = r"\customer_DATA.csv"
+output_sql = r"\insertCustomers.sql"
 
 with open(input_csv, newline='', encoding="utf-8") as csvfile, open(output_sql, "w", encoding="utf-8") as sqlfile:
     reader = csv.DictReader(csvfile)

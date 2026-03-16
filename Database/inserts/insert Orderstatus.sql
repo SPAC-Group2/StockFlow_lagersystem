@@ -5,4 +5,4 @@ INSERT INTO OrderStatus (status) VALUES ('Anulleret');
 INSERT INTO OrderStatus (status) VALUES ('Retuneret');
 INSERT INTO OrderStatus (status) VALUES ('Leveret');
 
-SELECT * FROM OrderStatus
+-- SELECT * FROM OrderStatus
