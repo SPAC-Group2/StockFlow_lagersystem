@@ -25,15 +25,19 @@ For at køre projektet:
 git clone https://github.com/SPAC-Group2/SoftFlow_lagersystem.git
 ```
 
-Projektet kræver en .env fil, der indeholder:
+2. Kør docker docker engine
+
+3. Projektet kræver en .env fil, der indeholder:
 ```
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD= ****** 
 POSTGRES_DB=StockFlow 
+
+DATABASE_URL=postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@database:5432/${POSTGRES_DB}
 ```
 > (Hvor * erstattes med et password.)
 
-For at køre alle services med docker skal der køres:
+4. For at køre alle services med docker skal der køres:
 
 ```docker compose up --build```
 
