@@ -73,7 +73,7 @@ Vi valgte postgress fordi det er en solid og open source database, samt giver de
 ### Data og design
 Dette projekt gav ikke de store krav i forhold til hvilke data der skal ligge i databasen, og derfor at vi måtte gætte os til nogle af de data vi har valgt at ligge i. Måden databasen og tabellerne er struktureret på kan ses på vores database diagram:
 
-![ER database diagram over Stockflows database](/Dokumentation/Database%20ER%20diagram%20v2.png)
+![ER database diagram over Stockflows database](/Dokumentation/Database%20ER%20diagram%20v3.png)
 
 ## Frameworks og biblioteker
 

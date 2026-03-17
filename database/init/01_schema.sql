@@ -22,7 +22,7 @@ primary_location int references Warehouses(warehouse_id)
 -- create Categories table
 CREATE TABLE Categories(
 category_id serial PRIMARY KEY,
-cateory text NOT NULL
+category text NOT NULL
 );
 -- create Products table
 CREATE TABLE Products(
@@ -30,7 +30,7 @@ product_id bigserial PRIMARY KEY,
 public_id text UNIQUE,
 name text NOT NULL,
 description text,
-price money NOT NULL,
+price numeric NOT NULL,
 category_id int references Categories(category_id)
 );
 -- create transactiontypes table

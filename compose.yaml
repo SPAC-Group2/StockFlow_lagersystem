@@ -16,6 +16,8 @@ services:
 
   backend:
     build: ./server
+    env_file:
+      - ./.env
     container_name: backend
     ports:
       - "3000:3000"

@@ -1,5 +1,9 @@
+import { verifyConnection } from "../db/db_module";
+
 export function getExampleData() {
+    verifyConnection();
     return {
+        
         message: "Hello from the service"
     };
 }
