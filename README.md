@@ -102,6 +102,9 @@ Vi har også lavet et API diagram for nemt at visualisere hvilke API’er der er
 
 ### Route -> controller -> service
 Vi har delt vores REST service op i 3 hovedområder. 
+
+Forløbet i REST servicen kan ses på diagrammet herunder.
+![Sekvens diagram over REST, GET all products](/Dokumentation/sekvens%20REST.png)
 #### Routes
 I route delen definerer vi de forskellige API, og hvor de skal kalde hen. Det er ret simpelt, og indeholder ingen logik eller lignede kode, men den er alligevel vigtig at have for sig selv, da det gør det nemmere at vedligeholde, samt organisere koden.
 #### Controller
