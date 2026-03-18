@@ -41,7 +41,7 @@ DECLARE
 	cat text;
 BEGIN
     IF NEW.public_id IS NULL THEN
-		SELECT categories.cateory
+		SELECT categories.category
         INTO cat
         FROM Categories
         WHERE category_id = NEW.category_id;

@@ -117,7 +117,7 @@ Vi valgte postgress fordi det er en solid og open source database, samt giver de
 ### Data og design
 Dette projekt gav ikke de store krav i forhold til hvilke data der skal ligge i databasen, og derfor at vi måtte gætte os til nogle af de data vi har valgt at ligge i. Måden databasen og tabellerne er struktureret på kan ses på vores database diagram:
 
-![ER database diagram over Stockflows database](/Dokumentation/Database%20ER%20diagram%20v2.png)
+![ER database diagram over Stockflows database](/Dokumentation/Database%20ER%20diagram%20v3.png)
 
 ### Public id
 Flere steder i databasen har vi lavet et public id, der er forskelligt fra id. Det har vi valgt at gøre de fleste steder for at nemt kunne identificere id’erne ved de 3 første bogstaver som: produkter – PRO, varehuse – WHS, kunder – CUS og ordre – ORD. Dette gør at man kan hurtigt kan se hvilket id man har med at gøre. Ved varehuse og produkter benytter vi de næste 3 bogstaver til at indikere enten byen varehuset er i, eller kategorien på produktet, hvor det/de sidste tal er det interne id, for at sikre at id’erne er unikke. For kunder og ordre, hvor man helst ikke må kunne gætte sig til id’erne, har vi valgt at lave tilføje det interne id, men også encode det i base64. 

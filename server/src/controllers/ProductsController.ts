@@ -1,8 +1,9 @@
 import { Request, Response } from "express";
 import { getExampleData, getExampleData3 } from "../services/exampleService";
+import { getAllProducts } from "../services/productService";
 
-export function getProducts(req: Request, res: Response) {
-    const data = getExampleData();
+export async function getProducts(req: Request, res: Response) {
+    const data = await getAllProducts();
     res.json(data);
 }
 
