@@ -50,6 +50,9 @@ export async function getAllProducts(filters : ProductFilter) {
 export async function GetPageNumber(pagesize: number) {
 
   const query = "SELECT count(*) FROM GetProducts;"
+  if (pagesize < 1){
+    pagesize = 10
+  }
   try {
     const tablelength = await pool.query(query);
     const nu = tablelength.rows.map(row => row.count)
